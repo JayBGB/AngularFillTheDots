@@ -1,0 +1,22 @@
+<app-header>
+</app-header>
+
+<div>
+  <div class="game-container">
+
+      @for (midot of dots; track midot.valueOf()) {
+        <div #dotRefs class="dot"  (mouseover)="changeStyle(dotRefs)"></div>
+      }
+
+
+  </div>
+
+  <div class="result" (click) = "increaseCounter()">
+    <p>
+      Counter:
+      {{ counter }}
+    </p>
+  </div>
+</div>
+
+
