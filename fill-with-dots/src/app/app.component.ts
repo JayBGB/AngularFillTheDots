@@ -24,19 +24,4 @@ export class AppComponent{
   increaseCounter(){
     this.counter++;
   }
-  /***
-  startTimer(){
-    this.myInterval=setInterval(() => {
-      this.counter--;
-    }, 1000)
-  }
-
-  ngOnInit(): void{
-    this.startTimer();
-  }
-
-  ngOnDestroy(): void {
-    clearInterval(this.myInterval);
-  }
-    ***/
 }
